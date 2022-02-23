@@ -21,10 +21,25 @@
 
 // primitive datatype exaples
 
-let name ='safnas'; 
-let age = 21;
-let isapproved = true;
-let firstName = undefined;
-let selectcolour = null;
+// let name ='safnas'; 
+// let age = 21;
+// let isapproved = true;
+// let firstName = undefined;
+// let selectcolour = null;
+
+
+// array
+let selectcolour=['red','blue'];
+console.log(selectcolour);
+// to find first Element
+console.log(selectcolour[0]);
+// to add a colour
+selectcolour[2]='green';
+console.log(selectcolour);
+// js is dynamic so we can add any database to it
+selectcolour[3]=1;
+console.log(selectcolour);
+// length property
+console.log(selectcolour.length);
 
 
